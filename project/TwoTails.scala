@@ -4,9 +4,10 @@ import xerial.sbt.Sonatype._
 import xerial.sbt.Sonatype.SonatypeKeys._
 
 object TwoTails{
-  val ScalacVersion = "2.11.11"
+  //val ScalacVersion = "2.11.11"
   //val ScalacVersion = "2.12.0"
-  //val ScalacVersion = "2.12.1"
+  val ScalacVersion = "2.12.1"
+  //val ScalacVersion = "2.12.2"
 
   def build(pjName: String, base: String) = Project(
     id = pjName,
